@@ -22,7 +22,5 @@ job1:
 
 job2:
   stage: stage2
-  only:
-    - master
   script:
     - echo "some job execution 2"
